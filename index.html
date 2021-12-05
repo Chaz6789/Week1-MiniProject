@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
 
-    </header>
-    <img src="./assets/images/Landingpage.jpg" alt="Landindpage">
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Week 1 Mini Project</title>
+    </head>
+
+    <body >
+        <header id="top-page">
+            <div " class="logo">
+                <h1>Neo<span>Pro</span></h1>
+            </div>
+            
+            <ul>
+                    <li>Information</li>
+                    <li>Contact</li>
+            </ul>
+        </header>
+        <div class="container"> 
+            <img src="./assets/images/LandingPage.png" alt="Landingpage"/>
+        </div> 
+        <section class="contact">
+            <div class="contact-area">
+                <div class="heading">
+                    <h2>Visitor Survey</h2>
+                    <p>Please help as guege our audience and tells where your from.</p>
+                </div>
+                <div class="contact-data">
+                    <img src="./assets/images/globe.jpg" alt="Globe of earth">
+                </div>
+                <div class="contact-data">
+                    <form>
+                        <label for="fname" >First Name</label>
+                        <input class="input-info" type="text" id="fname" placeholder="First Name...">
+                        <label for="lname">Last Name</label>
+                        <input class="input-info" type="text" id="lname" placeholder="Last Name...">
+                        <label for="country">Country</label>
+                        <select>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="italy">Italy</option>
+                            <option value="france">France</option>
+                            <option value="sweden">Sweden</option>
+                        </select>
+                        <label for="feedback">Feedback</label>
+                        <textarea name="subject" id="feedback" cols="30" rows="10" placeholder="Start Writing..."></textarea>
+                        <input class="sumbit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+           <p><a href="#top-page">Back to top</a></p>
+        </footer>
+    </body>     
+
 </html>
